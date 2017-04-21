@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="sdettraining.week3.day4.D4_001c_ReadFromXML_ShoppingCart">
+      <class name="sdettraining.week3.day5.DDT_DB_ShoppingCart">
         <methods>
-          <include name="tc_ReadLocatorsFromObjectRepository"/>
+          <include name="tc_End2EndShoppingCart_Test"/>
         </methods>
-      </class> <!-- sdettraining.week3.day4.D4_001c_ReadFromXML_ShoppingCart -->
+      </class> <!-- sdettraining.week3.day5.DDT_DB_ShoppingCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

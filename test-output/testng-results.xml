@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8" started-at="2017-04-21T10:40:05Z" finished-at="2017-04-21T10:40:05Z">
+  <suite name="Default suite" duration-ms="60182" started-at="2017-04-21T16:07:18Z" finished-at="2017-04-21T16:08:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8" started-at="2017-04-21T10:40:05Z" finished-at="2017-04-21T10:40:05Z">
+    <test name="Default test" duration-ms="60182" started-at="2017-04-21T16:07:18Z" finished-at="2017-04-21T16:08:19Z">
+      <class name="sdettraining.week3.day5.DDT_DB_ShoppingCart">
+        <test-method status="PASS" signature="tc_End2EndShoppingCart_Test()[pri:0, instance:sdettraining.week3.day5.DDT_DB_ShoppingCart@1753acfe]" name="tc_End2EndShoppingCart_Test" duration-ms="60164" started-at="2017-04-21T12:07:18Z" finished-at="2017-04-21T12:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_End2EndShoppingCart_Test -->
+      </class> <!-- sdettraining.week3.day5.DDT_DB_ShoppingCart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
