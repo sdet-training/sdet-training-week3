@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"	standalone="no"?>									
+<!--Project tag used to mention the project name, and basedir attribute will be the root directory of the application-->	
+
+
+<project name="Ant-Test" default="run" basedir=".">
+
+	 <property name="haltonfailure" value="false"/>
+	 <property name="lib.dir" location="C:\java\lib" />
+	
+	<target name="Main">
+	  <echo>Running ANT....</echo>
+	</target>
+	
+	
+	
+	<target name="create">
+	   <mkdir dir="bin"></mkdir>
+	   <mkdir dir="lib"></mkdir>
+	   <mkdir dir="src"></mkdir>
+	   <mkdir dir="reports"></mkdir>
+	</target>
+	
+	<path id="classpath">
+       <path location="lib" />
+         <fileset dir="lib" includes="*.jar" />
+	   	<path location="bin" />
+     </path>
+	
+	<target name="compile">
+       <javac classpathref="classpath" includeantruntime="true" srcdir="C:\SDET4\HexTraWk3\Week3\src\sdettraining\week3\day5" destdir="bin" includes="**/*.java"  />
+    </target>
+
+    <target name= "run" depends="compile">
+          <junit haltonfailure="false">
+  	 		 <classpath refid="classpath"></classpath>
+  		     <test name="AntHelloWorld" todir="reports"></test>
+			 <test name="AntTime" todir="reports"></test>
+			 <formatter type="plain" />
+         </junit>
+    </target>
+
+</project>

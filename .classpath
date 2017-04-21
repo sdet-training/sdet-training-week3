@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/cucumber-reporting-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/cucumber/cucumber/mockito-core-2.0.33-beta.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/activation.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/mail.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/pdfbox-2.0.5.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/poi-bin-3.15-20160924/poi-3.15/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/opencsv-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/SeleniumJAVATraining/ALLJARS/javacsv.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

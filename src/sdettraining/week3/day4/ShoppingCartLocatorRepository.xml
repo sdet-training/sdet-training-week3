@@ -1,0 +1,9 @@
+<locators>
+   <menu>     
+      <home><![CDATA[HOME_MENU_BUTTON]]></home>  
+      <sales><![CDATA[SALES_MENU_BUTTON]]></sales> 
+      <usersetting>
+          <logout><![CDATA[PANEL_LOGOUT_BUTTON]]></logout> 
+      </usersetting>
+   </menu>  
+</locators>

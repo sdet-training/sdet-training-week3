@@ -1,0 +1,12 @@
+<locators>
+   <searchPage>     
+      <search_textbox><![CDATA[txtSearch]]></search_textbox>  
+      <go_btn><![CDATA[Go]]></go_btn> 
+      <usersetting>
+          <logout><![CDATA[PANEL_LOGOUT_BUTTON]]></logout> 
+      </usersetting>
+   </searchPage>  
+   <addToCartPage>
+      <addToCart_1stButton><![CDATA[html/body/font/table[1]/tbody/tr[1]/td[3]/a/img]]></addToCart_1stButton>
+   </addToCartPage>
+</locators>

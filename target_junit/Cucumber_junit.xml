@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="4" tests="8" time="5.295428">
+<testcase classname="login Page" name="checking pre-condition, action and results" time="0.174317">
+<skipped><![CDATA[Given user is on Application landing page...................................pending
+When user clicks Sign in button.............................................skipped
+Then user is on login screen................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="login Page - With Capture and Non Capture Groups" name="Optional Capture Groups/Alternation" time="0.004732">
+<system-out><![CDATA[Then I see following dollars in my account..................................passed
+Then I do not see following dollars in my account...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="login Page - With Capture and Non Capture Groups" name="Optional Non capture Groups" time="0.000092">
+<system-out><![CDATA[Given I have following dollars in my account................................passed
+Given He has following dollars in my account................................passed
+Given User has following dollars in my account..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="sending Emails" name="E-mail content verification" time="3.15134">
+<system-out><![CDATA[Given I have a user account with Manager rights.............................passed
+Then I should receive an email with the body:...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="sending Emails" name="E-mail content verification 2" time="1.964371">
+<system-out><![CDATA[Given I have a user account with Admin rights...............................passed
+Then I should receive an email with the body:...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="login Page" name="New User Registration" time="0.000284">
+<skipped><![CDATA[Given user is on Application home page......................................passed
+Given user is on Application landing page...................................pending
+When user enters "Irfan" in username field..................................skipped
+And user enters "123456" in password field..................................skipped
+And user clicks on Signup for GitHub button.................................undefined
+Then user is successfully registered........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="login Page" name="login" time="0.000259">
+<skipped><![CDATA[Given user is on Application home page......................................passed
+Given user is on Application landing page...................................pending
+And Sign in button is present on screen.....................................skipped
+When user clicks on Sign in button..........................................undefined
+Then user is displayed login screen.........................................undefined
+When user enters "Irfan" in username field..................................skipped
+And user enters "123456" in password field..................................skipped
+And user clicks Sign in button..............................................skipped
+Then user is on home page...................................................skipped
+And title of home page is "GitHub"..........................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="login Page" name="Existing user Verification" time="0.000033">
+<skipped><![CDATA[Given user is on Application home page......................................passed
+Given user is displayed login screen........................................undefined
+Then we verify following user exists........................................skipped
+]]></skipped>
+</testcase>
+</testsuite>
